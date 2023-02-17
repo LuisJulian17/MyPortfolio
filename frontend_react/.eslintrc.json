@@ -30,6 +30,7 @@
         "no-unused-vars":0,
         "react/self-closing-comp":0,
         "react/jsx-first-prop-new-line":0,
-        "react/no-array-index-key":0
+        "react/no-array-index-key":0,
+        "eol-last":0
     }
 }
