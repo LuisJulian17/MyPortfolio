@@ -36,6 +36,11 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import julian from '../assets/julian.png';
 import java from '../assets/Java.png';
+import desarrollo from '../assets/desarrollow.png';
+import desarrolloback from '../assets/desarrolloba.png';
+import desarrollofront from '../assets/desarrollofo.png';
+import basesdedatos from '../assets/db.png';
+import gitygithub from '../assets/gitygithub.png';
 
 export default {
   email,
@@ -73,4 +78,9 @@ export default {
   spotify,
   julian,
   java,
+  desarrollo,
+  desarrolloback,
+  desarrollofront,
+  basesdedatos,
+  gitygithub,
 };

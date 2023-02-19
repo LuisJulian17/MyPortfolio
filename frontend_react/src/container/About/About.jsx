@@ -4,11 +4,11 @@ import { motion } from 'framer-motion';
 import { images } from '../../constants'
 
 const abouts = [
-  { tittle: 'Desarrollador web', description: 'Soy un buen desarrollador web.', imgUrl: images.about01 },
-  { tittle: 'Desarrollador Backend', description: 'Soy un buen desarrollador Backend.', imgUrl: images.about02 },
-  { tittle: 'Desarrollador Frontend', description: 'Soy un buen desarrollador Frontend.', imgUrl: images.about03 },
-  { tittle: 'Bases de datos', description: 'Manejo bien las bases de datos.', imgUrl: images.about04 },
-  { tittle: 'Git y Github', description: 'Manejo muy bien Git y Github para el control de versiones.', imgUrl: images.about01 }
+  { title: 'Desarrollador web', description: 'Soy buen desarrollador web.', imgUrl: images.desarrollo },
+  { title: 'Desarrollador Backend', description: 'Soy buen desarrollador Backend.', imgUrl: images.desarrolloback },
+  { title: 'Desarrollador Frontend', description: 'Soy buen desarrollador Frontend.', imgUrl: images.desarrollofront },
+  { title: 'Bases de datos', description: 'Buen manejo de bases de datos.', imgUrl: images.basesdedatos },
+  { title: 'Git y Github', description: 'Buen manejo de Git y Github.', imgUrl: images.gitygithub }
 ]
 import './About.scss';
 const About = () => {
@@ -16,10 +16,10 @@ const About = () => {
     <>
       <h2 className='head-text'>
         La funcion de un buen
-        <span>Software</span>
+        <span> Software</span>
         <br />
         es hacer que lo complejo aparente ser
-        <span>Simple</span>
+        <span> Simple</span>
       </h2>
 
       <div className='app__profiles'>
