@@ -47,6 +47,7 @@
         "react/jsx-one-expression-per-line":0,
         "jsx-a11y/anchor-has-content":0,
         "jsx-a11y/control-has-associated-label":0,
-        "max-len":0
+        "max-len":0,
+        "no-underscore-dangle":0
     }
 }
