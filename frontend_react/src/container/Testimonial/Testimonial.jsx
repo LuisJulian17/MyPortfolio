@@ -30,7 +30,7 @@ const Testimonial = () => {
 
   return (
     <>
-      {testimonials.length && (
+      { /* testimonials.length && (
         <>
           <div className="app__testimonial-item app__flex">
             <img src={urlFor(testimonials[currentIndex].imageurl)} alt={testimonials[currentIndex].name} />
@@ -53,7 +53,7 @@ const Testimonial = () => {
             </div>
           </div>
         </>
-      )}
+      ) */ }
       { /*  <div className="app__testimonial-brands app__flex">
         {brands.map((brand) => (
           <motion.div
@@ -69,8 +69,4 @@ const Testimonial = () => {
   );
 };
 
-export default AppWrap(
-  MotionWrap(Testimonial, 'app__testimonial'),
-  'testimonial',
-  'app__primarybg',
-);
+export default Testimonial;
